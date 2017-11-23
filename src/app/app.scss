@@ -14,3 +14,69 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+$main-black: #1d2b36;
+$main-gray: #858c92;
+$main-white: #f3f3f3;
+$main-green: #009688;
+$main-orange: #ff5722;
+$main-blue: #0bbfd6;
+
+
+ion-header {
+    ion-navbar {
+        ion-icon {
+            color: $main-gray;
+            font-size: 2.8rem;
+        }
+
+        ion-title {
+            .toolbar-title-md {
+                color: $main-white;
+            }
+        }
+        
+        .toolbar-background-md {
+            border-color: $main-gray;
+            background: $main-black;
+            color: #fff;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            margin-top: 2%;
+            padding-right: 12%;
+
+        }
+
+    }
+}
+
+ion-menu {
+    .menu-inner {
+        
+        // ion-header {
+        //     // visibility: hidden;
+        //     ion-toolbar {
+        //         // color: #ffad5b;
+        //         background: #10171d;
+        //     }
+        // }
+
+        ion-content {
+            background: #1d2b36;
+            .scroll-content {
+                overflow-y: hidden;
+                // margin-top: 74px !important;
+                ion-list {
+                    .item-md {
+                        color: #fff;
+                        background-color: #1d2b36;
+                    }
+                }
+            }
+
+        }
+    }
+}
