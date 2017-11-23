@@ -1,0 +1,8 @@
+{
+  "name": "cerealnetapp",
+  "app_id": "5f79806a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
